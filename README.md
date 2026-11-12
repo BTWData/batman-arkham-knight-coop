@@ -1,4 +1,4 @@
-# Batman: Arkham Knight — co-op online (versão de teste 0.3.4)
+# Batman: Arkham Knight — co-op online (versão de teste 0.3.5)
 
 Mod de fã que adiciona co-op online para 2 jogadores ao Batman: Arkham Knight da Steam. O anfitrião joga de Batman e
 o convidado de Robin, cada um no próprio PC, com a própria câmera e o próprio HUD. O launcher traz tudo dentro dele:
@@ -8,7 +8,7 @@ Projeto de fã, sem ligação com a Warner Bros. Games, a Rocksteady ou a DC. Vo
 
 ## Baixar
 
-Baixe o **`ak_coop_launcher_0.3.4.exe`** na página **[Releases](../../releases/latest)**. Os dois jogadores precisam
+Baixe o **`ak_coop_launcher_0.3.5.exe`** na página **[Releases](../../releases/latest)**. Os dois jogadores precisam
 da **mesma versão**.
 
 ## O que você precisa
@@ -19,7 +19,7 @@ da **mesma versão**.
 
 ## Abrir o launcher
 
-1. Rode o `ak_coop_launcher_0.3.4.exe`.
+1. Rode o `ak_coop_launcher_0.3.5.exe`.
 2. O Windows pode avisar "O Windows protegeu o computador". Clique em **Mais informações** e depois em **Executar
    assim mesmo** (o aviso aparece porque o programa não tem assinatura digital paga).
 3. Se o antivírus bloquear, libere o arquivo.
@@ -42,7 +42,7 @@ número de 17 dígitos.
 1. Marque **Entrar** e **Pela Steam**.
 2. Cole o código do anfitrião em "CÓDIGO STEAM DO ANFITRIÃO".
 3. Espere o anfitrião já estar no mundo, clique em **JOGAR** e carregue qualquer save.
-4. Uns segundos depois de entrar no mundo você vira o Robin, ao lado do Batman do anfitrião.
+4. Uns segundos depois de entrar no mundo e conectar você vira o Robin, ao lado do Batman do anfitrião.
 
 ## Durante o jogo
 
@@ -67,8 +67,15 @@ número de 17 dígitos.
 - Só 2 jogadores por enquanto.
 - Depois de reiniciar ou de uma tela de carregamento, o Robin demora uns 30 segundos para voltar: o mod espera o
   jogo terminar de carregar o nível (criar antes disso fechava o jogo).
+- **Reiniciar pelo menu ou passar por uma tela de carregamento com o Robin no jogo ainda pode fechar o jogo.**
+  Evitem isso por enquanto; a correção está em andamento.
 - A conexão pela Steam entre duas contas já funcionou num teste real. O teclado do convidado foi corrigido nesta
   versão, mas ainda não foi testado entre dois PCs.
+
+## O que mudou na 0.3.5
+
+- Corrigido: o Robin era criado mesmo sem o amigo conectado, e morrer assim fechava o jogo. Agora ele só aparece
+  quando os dois estão conectados (e aí os dois já estão imortais).
 
 ## O que mudou na 0.3.4
 
