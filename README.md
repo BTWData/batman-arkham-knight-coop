@@ -1,4 +1,4 @@
-# Batman: Arkham Knight — co-op online (versão de teste 0.4.0)
+# Batman: Arkham Knight — co-op online (versão de teste 0.4.1)
 
 Mod de fã que adiciona co-op online ao Batman: Arkham Knight da Steam, para até 4 jogadores. Cada um joga no
 próprio PC, com a própria câmera e o próprio HUD, e vê os amigos andando, lutando e planando no mesmo mundo.
@@ -9,7 +9,7 @@ Projeto de fã, sem ligação com a Warner Bros. Games, a Rocksteady ou a DC. Vo
 
 ## Baixar
 
-Baixe o **`ak_coop_instalador_0.4.0.exe`** na página **[Releases](../../releases/latest)**. Todos os jogadores
+Baixe o **`ak_coop_instalador_0.4.1.exe`** na página **[Releases](../../releases/latest)**. Todos os jogadores
 precisam da **mesma versão**.
 
 ## O que você precisa
@@ -20,7 +20,7 @@ precisam da **mesma versão**.
 ## Instalar (uma vez, e de novo só quando sair uma versão nova)
 
 1. Feche o jogo.
-2. Rode o `ak_coop_instalador_0.4.0.exe`. O Windows pode avisar "O Windows protegeu o computador": clique em
+2. Rode o `ak_coop_instalador_0.4.1.exe`. O Windows pode avisar "O Windows protegeu o computador": clique em
    **Mais informações** e depois em **Executar assim mesmo** (o aviso aparece porque o programa não tem
    assinatura digital paga). Se o antivírus bloquear, libere o arquivo.
 3. Clique em **INSTALAR TUDO**. Quando aparecer "Tudo instalado", feche o instalador. Ele **não** precisa ficar
@@ -60,8 +60,14 @@ Abra o jogo pela Steam, normal, e no menu principal entre em **MULTIPLAYER**.
 - Os inimigos e as missões ainda **não** são compartilhados: cada um vê os bandidos do próprio jogo.
 - Só o anfitrião avança a história e salva.
 - Quem não tiver uma skin (DLC) vê aquele amigo com a skin padrão do personagem.
-- Esta é a primeira versão com tudo dentro do jogo. Ela foi testada num PC só; o teste entre dois PCs é o
-  próximo passo.
+- No Batmóvel, os outros veem só o seu nome no lugar do carro.
+
+## O que mudou na 0.4.1
+
+- A cópia de cada amigo se refaz sozinha quando ele troca de personagem ou de skin (antes ele podia aparecer com a roupa
+  de Batman até usar DESBUGAR).
+- Se a roupa não encaixa no esqueleto (por exemplo, no Batmóvel), a cópia não aparece torta: fica só o nome dele.
+- O nome Steam fica em cima da cabeça, pela altura real de cada personagem.
 
 ## O que mudou na 0.4.0
 
