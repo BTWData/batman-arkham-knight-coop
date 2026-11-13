@@ -1,95 +1,84 @@
-# Batman: Arkham Knight — co-op online (versão de teste 0.3.5)
+# Batman: Arkham Knight — co-op online (versão de teste 0.4.0)
 
-Mod de fã que adiciona co-op online para 2 jogadores ao Batman: Arkham Knight da Steam. O anfitrião joga de Batman e
-o convidado de Robin, cada um no próprio PC, com a própria câmera e o próprio HUD. O launcher traz tudo dentro dele:
-instala o mod sozinho e liga os dois PCs pela rede da Steam.
+Mod de fã que adiciona co-op online ao Batman: Arkham Knight da Steam, para até 4 jogadores. Cada um joga no
+próprio PC, com a própria câmera e o próprio HUD, e vê os amigos andando, lutando e planando no mesmo mundo.
+Tudo é feito **dentro do jogo**, no menu **MULTIPLAYER**: criar a sala, convidar pela Steam, entrar, escolher o
+personagem e a skin. O instalador só instala o mod.
 
 Projeto de fã, sem ligação com a Warner Bros. Games, a Rocksteady ou a DC. Você precisa ter o jogo na Steam.
 
 ## Baixar
 
-Baixe o **`ak_coop_launcher_0.3.5.exe`** na página **[Releases](../../releases/latest)**. Os dois jogadores precisam
-da **mesma versão**.
+Baixe o **`ak_coop_instalador_0.4.0.exe`** na página **[Releases](../../releases/latest)**. Todos os jogadores
+precisam da **mesma versão**.
 
 ## O que você precisa
 
-- Batman: Arkham Knight na Steam, atualizado (testado na build 13250859; o launcher avisa se a sua for diferente).
+- Batman: Arkham Knight na Steam, atualizado (testado na build 13250859; o instalador avisa se a sua for diferente).
 - A Steam aberta e logada na sua conta.
-- Teclado e mouse ou controle, os dois servem.
 
-## Abrir o launcher
+## Instalar (uma vez, e de novo só quando sair uma versão nova)
 
-1. Rode o `ak_coop_launcher_0.3.5.exe`.
-2. O Windows pode avisar "O Windows protegeu o computador". Clique em **Mais informações** e depois em **Executar
-   assim mesmo** (o aviso aparece porque o programa não tem assinatura digital paga).
-3. Se o antivírus bloquear, libere o arquivo.
-4. Veja a lista **VERIFICAÇÃO**: tudo deve ficar com o sinal de certo. Se algo der errado, clique em
-   **INSTALAR / REPARAR**. Se o jogo não for achado, use **BUSCAR AUTOMÁTICO** ou **ESCOLHER MANUALMENTE**.
+1. Feche o jogo.
+2. Rode o `ak_coop_instalador_0.4.0.exe`. O Windows pode avisar "O Windows protegeu o computador": clique em
+   **Mais informações** e depois em **Executar assim mesmo** (o aviso aparece porque o programa não tem
+   assinatura digital paga). Se o antivírus bloquear, libere o arquivo.
+3. Clique em **INSTALAR TUDO**. Quando aparecer "Tudo instalado", feche o instalador. Ele **não** precisa ficar
+   aberto.
 
-## Trocar os códigos (uma vez por partida)
+## Jogar (tudo dentro do jogo)
 
-Cada um clica em **COPIAR** no campo "SEU CÓDIGO STEAM" e manda para o outro (WhatsApp, Discord). O código é um
-número de 17 dígitos.
+Abra o jogo pela Steam, normal, e no menu principal entre em **MULTIPLAYER**.
 
-## Quem hospeda (anfitrião = Batman)
+**Quem recebe os amigos (anfitrião, sempre o Batman)**
 
-1. Marque **Hospedar** e **Pela Steam**.
-2. Cole o código do amigo em "CÓDIGO STEAM DO SEU AMIGO".
-3. Clique em **JOGAR**, carregue o seu save e entre no mundo. O anfitrião entra no jogo **primeiro**.
+1. **HOSPEDAR PARTIDA**: a sua sala é criada (até 4 jogadores) e mostra quem entrou.
+2. **CONVIDAR AMIGO (STEAM)**: abre a lista de amigos da Steam para convidar.
+3. **ESCOLHER SKIN DO BATMAN**, se quiser.
+4. Com todos na sala, **COMEÇAR PARTIDA**: todos vão para o seu mundo.
 
-## Quem entra (convidado = Robin)
+**Quem entra (convidado)**
 
-1. Marque **Entrar** e **Pela Steam**.
-2. Cole o código do anfitrião em "CÓDIGO STEAM DO ANFITRIÃO".
-3. Espere o anfitrião já estar no mundo, clique em **JOGAR** e carregue qualquer save.
-4. Uns segundos depois de entrar no mundo e conectar você vira o Robin, ao lado do Batman do anfitrião.
+1. Aceite o convite pela Steam, ou entre em **ENTRAR EM PARTIDA** e clique na sala do amigo.
+2. **ESCOLHER PERSONAGEM E SKIN**: escolha com as setas (Batman, Robin, Asa Noturna, Mulher-Gato, Azrael e, com
+   as DLCs, Batgirl, Arlequina e Capuz Vermelho).
+3. Espere o anfitrião começar: você carrega o mundo dele e vira o personagem escolhido. O seu próprio save
+   **nunca** é tocado enquanto você joga no mundo do anfitrião.
 
 ## Durante o jogo
 
-- A conexão começa sozinha, não precisa apertar nada.
-- Enquanto estiverem conectados, os dois ficam **imortais** (para evitar mortes à toa, que passam por tela de
+- No menu de pausa, **STATUS MULTIPLAYER** mostra quem está conectado e o ping de cada um.
+- Se o personagem cair no limbo, use **DESBUGAR PERSONAGEM** nesse mesmo menu.
+- O nome Steam de cada amigo aparece em cima dele.
+- Enquanto estão conectados, todos ficam **imortais** (para evitar mortes à toa, que passam por tela de
   carregamento).
-- Deixe o launcher **aberto** enquanto jogam (ele é a ponte com o amigo).
-- Joguem perto um do outro.
-- **Não** troque de janela (Alt+Tab) nem minimize: o jogo pausa quando perde o foco, e o seu amigo vê você parado.
-
-## Se não conectar
-
-- Um escolhe **Hospedar** e o outro **Entrar** (nunca os dois iguais).
-- Cada um cola o código do **outro**, não o próprio.
-- Embaixo do botão JOGAR aparece a "Ponte Steam": depois de 1 minuto sem nada chegar, ela diz o que conferir.
-- O convidado pode entrar antes ou depois do anfitrião: ele tenta conectar de novo sozinho.
+- **Não** troque de janela (Alt+Tab) nem minimize: o jogo pausa quando perde o foco, e os seus amigos veem você
+  parado.
 
 ## Limites desta versão
 
 - Os inimigos e as missões ainda **não** são compartilhados: cada um vê os bandidos do próprio jogo.
-- Só o Batman (anfitrião) chama o Batmóvel.
-- Só 2 jogadores por enquanto.
-- Depois de reiniciar ou de uma tela de carregamento, o Robin demora uns 30 segundos para voltar: o mod espera o
-  jogo terminar de carregar o nível (criar antes disso fechava o jogo).
-- **Reiniciar pelo menu ou passar por uma tela de carregamento com o Robin no jogo ainda pode fechar o jogo.**
-  Evitem isso por enquanto; a correção está em andamento.
-- A conexão pela Steam entre duas contas já funcionou num teste real. O teclado do convidado foi corrigido nesta
-  versão, mas ainda não foi testado entre dois PCs.
+- Só o anfitrião avança a história e salva.
+- Quem não tiver uma skin (DLC) vê aquele amigo com a skin padrão do personagem.
+- Esta é a primeira versão com tudo dentro do jogo. Ela foi testada num PC só; o teste entre dois PCs é o
+  próximo passo.
 
-## O que mudou na 0.3.5
+## O que mudou na 0.4.0
 
-- Corrigido: o Robin era criado mesmo sem o amigo conectado, e morrer assim fechava o jogo. Agora ele só aparece
-  quando os dois estão conectados (e aí os dois já estão imortais).
-
-## O que mudou na 0.3.4
-
-- Corrigido: o jogo do anfitrião fechava logo depois de carregar o nível, quando o Robin aparecia cedo demais.
-- Corrigido: o convidado no teclado (W, A, S, D) não mexia o Robin na tela do anfitrião.
-- Novo: os dois ficam imortais enquanto estão conectados.
+- Tudo dentro do jogo: menu **MULTIPLAYER** com **HOSPEDAR PARTIDA** e **ENTRAR EM PARTIDA**, convites pela Steam,
+  sem códigos e sem launcher aberto. A conexão usa a própria Steam do jogo.
+- Até **4 jogadores**.
+- Escolha de **personagem e skin** com setas; cada um vê a skin dos outros.
+- Nome Steam em cima de cada amigo.
+- Tela de carregamento própria enquanto o convidado vai para o mundo do anfitrião.
+- O launcher virou só um **instalador** (botão **INSTALAR TUDO**).
 
 ## Se algo der errado
 
-No launcher, clique em **JUNTAR LOGS**. Ele cria um arquivo `.zip` e abre a pasta com ele. Abra uma
+Abra o instalador e clique em **JUNTAR LOGS**. Ele cria um arquivo `.zip` e abre a pasta com ele. Abra uma
 [issue](../../issues) e anexe o `.zip`.
 
 ## Créditos
 
-- [BmSDK-AK](https://github.com/Team-BmSDK/BmSDK-AK), licença MIT, Copyright (c) 2026 Eli Kramer. Vai embutido no
-  launcher.
-- `steam_api64.dll`, da Valve (Steamworks), tirada do [Steamworks.NET](https://github.com/rlabrecque/Steamworks.NET).
+- [BmSDK-AK](https://github.com/Team-BmSDK/BmSDK-AK), licença MIT, Copyright (c) 2026 Eli Kramer. Vai embutido
+  no instalador.
