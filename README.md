@@ -1,4 +1,4 @@
-# Batman: Arkham Knight — co-op online (versão de teste 0.4.1)
+# Batman: Arkham Knight — co-op online (versão de teste 0.4.2)
 
 Mod de fã que adiciona co-op online ao Batman: Arkham Knight da Steam, para até 4 jogadores. Cada um joga no
 próprio PC, com a própria câmera e o próprio HUD, e vê os amigos andando, lutando e planando no mesmo mundo.
@@ -9,7 +9,7 @@ Projeto de fã, sem ligação com a Warner Bros. Games, a Rocksteady ou a DC. Vo
 
 ## Baixar
 
-Baixe o **`ak_coop_instalador_0.4.1.exe`** na página **[Releases](../../releases/latest)**. Todos os jogadores
+Baixe o **`ak_coop_instalador_0.4.2.exe`** na página **[Releases](../../releases/latest)**. Todos os jogadores
 precisam da **mesma versão**.
 
 ## O que você precisa
@@ -20,7 +20,7 @@ precisam da **mesma versão**.
 ## Instalar (uma vez, e de novo só quando sair uma versão nova)
 
 1. Feche o jogo.
-2. Rode o `ak_coop_instalador_0.4.1.exe`. O Windows pode avisar "O Windows protegeu o computador": clique em
+2. Rode o `ak_coop_instalador_0.4.2.exe`. O Windows pode avisar "O Windows protegeu o computador": clique em
    **Mais informações** e depois em **Executar assim mesmo** (o aviso aparece porque o programa não tem
    assinatura digital paga). Se o antivírus bloquear, libere o arquivo.
 3. Clique em **INSTALAR TUDO**. Quando aparecer "Tudo instalado", feche o instalador. Ele **não** precisa ficar
@@ -49,11 +49,13 @@ Abra o jogo pela Steam, normal, e no menu principal entre em **MULTIPLAYER**.
 
 - No menu de pausa, **STATUS MULTIPLAYER** mostra quem está conectado e o ping de cada um.
 - Se o personagem cair no limbo, use **DESBUGAR PERSONAGEM** nesse mesmo menu.
-- O nome Steam de cada amigo aparece em cima dele.
+- O nome Steam de cada amigo aparece em cima dele, com a distância em metros e uma cor por jogador (anfitrião
+  dourado, depois azul, verde e laranja). Quando o amigo está fora da tela ou atrás de você, o nome fica na borda da
+  tela com uma seta apontando para ele.
 - Enquanto estão conectados, todos ficam **imortais** (para evitar mortes à toa, que passam por tela de
   carregamento).
-- **Não** troque de janela (Alt+Tab) nem minimize: o jogo pausa quando perde o foco, e os seus amigos veem você
-  parado.
+- Com alguém conectado, trocar de janela (Alt+Tab) **não** pausa mais o jogo. O menu de pausa deve abrir com o
+  mundo continuando atrás (o seu personagem fica parado); isso ainda está em teste.
 
 ## Limites desta versão
 
@@ -61,6 +63,18 @@ Abra o jogo pela Steam, normal, e no menu principal entre em **MULTIPLAYER**.
 - Só o anfitrião avança a história e salva.
 - Quem não tiver uma skin (DLC) vê aquele amigo com a skin padrão do personagem.
 - No Batmóvel, os outros veem só o seu nome no lugar do carro.
+
+## O que mudou na 0.4.2
+
+- **Movimento mais suave:** até 60 atualizações por segundo de cada amigo (antes cerca de 18). Se a internet de
+  alguém perde pacotes, o mod baixa sozinho para 30 e volta para 60 quando melhora.
+- **Sem cópias paradas:** a cópia do amigo não deixa mais "estátuas" pelo caminho.
+- **Nome em cima da cabeça** de verdade, com a distância (`42 m`), a cor do jogador, a fonte do próprio jogo (com
+  acentos) e setas na borda da tela para achar quem está longe.
+- **Skin do Batman do anfitrião:** a skin escolhida em HOSPEDAR PARTIDA agora vale ao carregar o save.
+- **Quem sai da sala** some na hora para os outros (antes podia ficar "conectado" por 30 segundos).
+- Alt+Tab não pausa mais o jogo com alguém conectado.
+- **Todos precisam da 0.4.2:** ela não conecta com a 0.4.1.
 
 ## O que mudou na 0.4.1
 
